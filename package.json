@@ -1,19 +1,23 @@
 {
   "name": "gulp-build",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Configured gulp for web development",
+  "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "GogaComp",
+  "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
     "browser-sync": "^2.26.12",
     "clean-css": "^4.2.3",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0-beta.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-file-include": "^2.2.2",
     "gulp-group-css-media-queries": "^1.2.2",
