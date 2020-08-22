@@ -1,0 +1,15 @@
+body {
+  line-height: 50px;
+  font-size: 35px;
+  p {
+    color: #cc3e44;
+  }
+  div {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/img/bg.png");
+  }
+}

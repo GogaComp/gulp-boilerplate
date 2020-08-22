@@ -32,7 +32,7 @@ const src_dir = "_src", // source
   (source = {
     // for source files
     html: [src_dir + "/*.html", "!" + src_dir + "/_*.html"], // html files and not _*.html
-    css: src_dir + "/scss/**/*.scss", // scss
+    css: [src_dir + "/scss/**/*.scss", "!" + src_dir + "/scss/**/_*.scss"], // scss and not _*.scss
     js: [src_dir + "/js/**/*.js", "!" + src_dir + "/js/**/_*.js"], // js
     img: src_dir + "/img/*.*", // img
   }),
