@@ -1,3 +1,4 @@
-# gulp-build
-Gulp for web development with start files.
-Just copy and write code!
+# Gulp build for create page-proofs
+
+Gulp for page-proofs with start files.
+Just `npm i` and write code!
