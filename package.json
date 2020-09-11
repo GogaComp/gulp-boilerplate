@@ -1,5 +1,5 @@
 {
-  "name": "gulp-build",
+  "name": "gulp-boilerplate",
   "version": "1.0.0",
   "description": "Configured gulp for web development",
   "main": "gulpfile.js",
